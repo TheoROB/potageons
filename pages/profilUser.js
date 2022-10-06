@@ -10,7 +10,7 @@ const ProfilUser = () => {
       <div className="mt-10">      
         <div className="flex flex-col items-center">
         <Image src={usersolid} alt="" width={200} height={150} />
-          <p class="text-xl mt-5">Nicolas</p>
+          <p className="text-xl mt-5">Nicolas</p>
         </div>
         <div className="flex justify-evenly mt-10">
           <div className="flex flex-col items-center">

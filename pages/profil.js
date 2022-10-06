@@ -17,18 +17,18 @@ const Profil = () => {
         </div>
       </div>
       <div className='m-5'>
-        <p class="text-xl mt-10 mb-5">Vends :</p> 
+        <p className="text-xl mt-10 mb-5">Vends :</p> 
         <Link href="/produit">
         <Image src={tomates} className="imgProduit cursor-pointer" alt="Images tomates" width={550} height='200' />
         </Link>
-        <div class="flex justify-between mt-2">
+        <div className="flex justify-between mt-2">
             <p>Tomates</p>
-            <p class="mr-3">2€/kg</p>
+            <p className="mr-3">2€/kg</p>
         </div>
       </div>
         <div className='flex justify-center'>
         <Link href="/message">
-          <button className="btn bg-[#1B7E31] hover:bg-green-600 mt-72 w-44">Messsage</button>
+          <button className="btn bg-[#1B7E31] hover:bg-green-600 mt-36 w-44">Messsage</button>
         </Link>
         </div>
       </div>

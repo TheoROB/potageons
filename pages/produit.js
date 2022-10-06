@@ -20,7 +20,7 @@ const Produit = () => {
           <p className='text-xl'>Tomates du jardin</p>
           <p className='mt-5'>Je vends les tomates de mon jardin. J’ai différentes variétés comme les coeurs de boeuf, ananas, noire de crimée...</p>
         </div>
-        <div className='m-5 flex justify-between mt-72'>
+        <div className='m-5 flex justify-between mt-36'>
           <p>Prix: 2€/Kg</p>
           <Link href="/message">
           <button className="btn bg-[#1B7E31] hover:bg-green-600">Messsage</button>
