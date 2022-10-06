@@ -3,11 +3,12 @@ import Layout from '../components/Layout'
 import tomates from '/assets/tomates.jpeg'
 import eric from '/assets/eric.jpg'
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 const Profil = () => {
   return (
     <Layout>
+      <div className="flex flex-col justify-between">
       <div className="flex justify-around items-center mt-10">
         <Image src={eric} class="profilImg" alt="PP Eric" width={100} height={100} />
         <div>
@@ -23,7 +24,12 @@ const Profil = () => {
             <p class="mr-3">2€/kg</p>
         </div>
       </div>
-      
+        <div className='flex justify-center'>
+        <Link href="/message">
+          <button className="btn bg-[#1B7E31] hover:bg-green-600 mt-72 w-44">Messsage</button>
+        </Link>
+        </div>
+      </div>
     </Layout>  
     )
 }

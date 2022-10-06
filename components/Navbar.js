@@ -61,7 +61,7 @@ export default function NavBar() {
 									<Link href="/map">Map</Link>
 								</li>
 								<li className="text-white hover:text-black">
-									<Link href="/profil">Profil</Link>
+									<Link href="/profilUser">Profil</Link>
 								</li>
 								<li className="text-white hover:text-black">
 									<Link href="/abonnement">Abonnement(s)</Link>
