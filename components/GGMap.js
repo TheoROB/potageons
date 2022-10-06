@@ -5,9 +5,9 @@ import Image from 'next/image'
 const GGMap = () => {
   return (
     <div>
-      <h1 className="font-bold text-xl ml-3 mt-5 mb-10">MAP:</h1>
+      <h1 className="text-xl m-5">MAP:</h1>
       <div className="flex justify-center">
-        <Image className="mt-10" src={map} alt="this is car image" width={500} height={300} />
+        <Image className="mt-10" src={map} alt="this is car image" width={600} height={300} />
       </div>
     </div>
   )
