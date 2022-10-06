@@ -5,8 +5,8 @@ const Abonne = () => {
   return (
     <Layout>
       <div>
-        <p class="text gras">Abonné(s)</p>
-        <p class="text petit">Vous n'avez aucun abonné</p>
+        <p className="text gras">Abonnés</p>
+        <p className="text petit">Vous n'avez aucun abonné</p>
       </div>
     </Layout>
   )
