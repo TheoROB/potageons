@@ -18,7 +18,9 @@ const Profil = () => {
       </div>
       <div className='m-5'>
         <p class="text-xl mt-10 mb-5">Vends :</p> 
-        <Image src={tomates} className="imgProduit" alt="Images tomates" width={550} height='200' />
+        <Link href="/produit">
+        <Image src={tomates} className="imgProduit cursor-pointer" alt="Images tomates" width={550} height='200' />
+        </Link>
         <div class="flex justify-between mt-2">
             <p>Tomates</p>
             <p class="mr-3">2€/kg</p>

@@ -33,7 +33,9 @@ export default function Home() {
             </Link>
             <p className="ml-5">Eric à 3km</p>
           </div>
-          <Image src={tomates} className="imgProduit" alt="Images tomates" width={550} height='200' />
+          <Link href='/produit'>
+          <Image src={tomates} className="imgProduit cursor-pointer" alt="Images tomates" width={550} height='200' />
+          </Link>
           <div class="flex justify-between mt-2">
             <p>Tomates</p>
             <p class="mr-3">2€/kg</p>
